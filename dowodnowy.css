@@ -6,7 +6,7 @@ body {
 
 header {
     position: sticky;
-    top: 0;
+    top: -1;
     left: 0;
     width: 100%;
     z-index: 9999;
@@ -115,10 +115,10 @@ main {
     height: 80px;
     display: flex;
     background-color: #ffffff;
-    padding: 20px;
+    padding: 45px 22px;
     align-items: center;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 12px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 17px;
 }
 .buto img:first-of-type:not(.buto img:last-of-type){
     width: 20px;
@@ -248,6 +248,13 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.wybierzitem#wi1 {
+    background-image: url(../dowod_files/warstwa_1.png);
+}
+.wybierzitem#wi2 {
+    background-image: url(../dowod_files/warstwa_2.png);
+}
+
 .wybierzitem button{
     border-radius: 24px;
     background-color: #014a93;
